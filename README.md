@@ -1,2 +1,1 @@
-# Stiéphen Pradal
-# PhD in Homotopy Type Theory
+# Test test test test test test test test test test test test test test test 
