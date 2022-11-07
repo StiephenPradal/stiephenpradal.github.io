@@ -12,6 +12,7 @@ nav {
 }
 nav.fixed-top {
   padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.65)
 }
 nav.bg-primary li a {
   color: #fff !important;
