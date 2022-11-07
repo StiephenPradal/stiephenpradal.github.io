@@ -1,0 +1,241 @@
+/*Navigation style*/
+.navbar {
+  background: #000;
+}
+.navbar .nav-item {
+  padding-right: 1em;
+}
+.navbar .nav-item .nav-link {
+  text-transform: uppercase;
+}
+
+/*Slider style*/
+#showcase .carousel-item {
+  height: 450px;
+}
+#showcase .carousel-images-1 {
+  background-image: url("../images/image1.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#showcase .carousel-images-2 {
+  background-image: url("../images/image2.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#showcase .carousel-images-3 {
+  background-image: url("../images/image3.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#showcase h2 {
+  color: #fff;
+}
+
+/*portfolio style*/
+#portfolio .fa {
+  font-size: 50px;
+}
+#portfolio h3 {
+  margin-top: 10px;
+}
+#portfolio p {
+  margin-bottom: 0px !important;
+}
+
+/*started style*/
+#started {
+  background-image: url("../images/bg1.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-attachment: fixed;
+  position: relative;
+}
+#started .dark-overly {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/*course video style*/
+#course-video {
+  background-image: url("../images/people.jpg");
+  min-height: 250px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+#course-video .dark-overly {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+#course-video .dark-overly .fa {
+  font-size: 50px;
+  color: #FF0000;
+}
+#course-video .dark-overly h2 {
+  margin-top: 10px;
+  color: #fff;
+}
+
+/*gallery style*/
+#gallery h2 {
+  line-height: 20px;
+}
+#gallery img {
+  height: 250px;
+  width: 100%;
+}
+
+/*info form style*/
+#info-form h2 {
+  color: #fff;
+  line-height: 20px;
+}
+#info-form input {
+  margin: .5rem;
+}
+
+/*footer style*/
+#footer-section {
+  background: #000;
+}
+#footer-section p {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/*media queries*/
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 1.5rem;
+  }
+
+  #started {
+    min-height: 350px;
+  }
+}
+@media (max-width: 767px) {
+  #started {
+    min-height: 300px;
+  }
+}
+@media (max-width: 575px) {
+  #info img {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 410px) {
+  #info-form h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 328px) {
+  #info-form h2 {
+    font-size: 20px;
+  }
+}
+/*import files link*/
+/*header style*/
+#about-header {
+  background-image: url("../images/image1.jpg");
+  min-height: 200px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#about-header h2, #about-header p {
+  color: #fff;
+}
+#about-header p {
+  line-height: 15px;
+}
+
+/*info style*/
+#about-info img {
+  width: 350px;
+  height: 350px;
+}
+
+/*portfolio style*/
+#about-portfolio .fa {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#about-portfolio h3 {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+#about-portfolio p {
+  margin-top: 0px;
+}
+
+/*testimonials style*/
+#testimonials-section .slick-prev::before,
+#testimonials-section .slick-next::before {
+  color: #000;
+}
+
+/*service header style*/
+#services-header {
+  background-image: url("../images/image3.jpg");
+  min-height: 200px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#services-header h2, #services-header p {
+  color: #fff;
+}
+#services-header p {
+  line-height: 15px;
+}
+
+/*service asked questions style*/
+#accordion a {
+  color: #000;
+}
+
+/*Blog header style*/
+#blog-header {
+  background-image: url("../images/image5.jpg");
+  min-height: 200px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#blog-header h2, #blog-header p {
+  color: #000;
+}
+#blog-header p {
+  line-height: 15px;
+}
+
+/*Contact header style*/
+#contact-header {
+  background-image: url("../images/image2.jpg");
+  min-height: 200px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contact-header h2, #contact-header p {
+  color: #fff;
+}
+#contact-header p {
+  line-height: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
