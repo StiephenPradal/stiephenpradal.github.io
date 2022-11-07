@@ -1,159 +1,254 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Stiéphen Pradal</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,  initial-scale=1.0">
+	<title>Glozzom</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="w3-content" style="max-width:1300px">
+<body>
 
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>My Logo</h1>
-    </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
-    </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-left-align w3-padding-large">
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Second Grid: Work & Resume -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
-    <div class="w3-padding-64">
-      <h2>My Work</h2>
-      <p>Some of my latest projects.</p>
-    </div>
-    <div class="w3-row">
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-    </div>
+	<!--Navigation section start-->	
+	<nav class="navbar navbar-expand-md navbar-dark" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Glozzom</a>
+			<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNab">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbarNab" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+					<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--Navigation section end-->
+	<!--Slider section start-->	
+	<section id="showcase" class="bg-dark">
+		<div id="slide" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#slide" data-slide-to="0"></li>
+				<li data-target="#slide" data-slide-to="1"></li>
+				<li data-target="#slide" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active carousel-images-1">
+					<div class="cantainer">
+						<div class="carousel-caption mb-5 pb-5">
+							<h2 class="display-4">Heading One</h2>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!
+							</p>
+							<a href="#" class="btn btn-danger">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item carousel-images-2">
+					<div class="cantainer">
+						<div class="carousel-caption mb-5 pb-5 text-right">
+							<h2 class="display-4">Heading Two</h2>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!
+							</p>
+							<a href="#" class="btn btn-warning">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item carousel-images-3">
+					<div class="cantainer">
+						<div class="carousel-caption mb-5 pb-5 text-left">
+							<h2 class="display-4">Heading There</h2>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!
+							</p>
+							<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#slide" class="carousel-control-prev" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a href="#slide" class="carousel-control-next" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</section>
+	<!--Slider section end-->	
+	<!--Portfolio section start-->	
+	<section id="portfolio" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<i class="fa fa-gears"></i>
+					<h3>Turning Gears</h3>
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.
+					</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<i class="fa fa-cloud"></i>
+					<h3>Sending Data</h3>
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.
+					</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<i class="fa fa-cart-plus"></i>
+					<h3>Making Money</h3>
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Portfolio section end-->	
+	<!--Get started section start-->
+	<section id="started" class="py-5 text-center text-light">
+		<div class="dark-overly">
+			<div class="container">
+				<div class="row">
+					<div class="col mt-5 pt-4">
+						<h3>Are You Ready To Get Started?</h3>
+						<p class="lead">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<!--Get started section end-->	
+	<!--Info section start-->	
+	<section id="info" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 align-self-center">
+					<h3>Lorem Ipsum Dolor Sit</h3>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dignissimos recusandae nobis reiciendis voluptatem quae iusto, fugiat itaque iste explicabo.</p>
+					<a href="#" class="btn btn-outline-dark">Read More</a>
+				</div>
+				<div class="col-md-6 mt-sm-3">
+					<img src="images/pc.jpg" alt="pC" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Info section end-->	
+	<!--Course video section start-->	
+	<section id="course-video" class="text-center">
+		<div class="dark-overly">
+			<div class="container">
+				<div class="row">
+					<div class="col py-5 my-5">
+						<div uk-lightbox>
+							<a href="https://www.youtube.com/watch?v=MWwbD1lt3mc">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+						<h2>Bootstrap 4 Crash Course</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Course video section end-->	
+	<!--Gallery section start-->	
+	<section id="gallery" class="py-5" uk-lightbox>
+		<div class="container">
+			<div class="row mb-2">
+				<div class="col text-center">
+					<h2>Photo Gallery</h2>
+					<p class="lead">Check out our photos</p>
+				</div>
+			</div>
+			<div class="row mb-4">
+				<div class="col-md-4">
+					<a href="images/image1.jpg">
+						<img src="images/image1.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="images/image2.jpg">
+						<img src="images/image2.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="images/image3.jpg">
+						<img src="images/image3.jpg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="images/image4.jpg">
+						<img src="images/image4.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="images/image5.jpg">
+						<img src="images/image5.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="images/image6.jpg">
+						<img src="images/image6.jpg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Gallery section end-->	
+	<!--Info Form section start-->	
+	<section id="info-form" class="py-5 bg-dark text-light text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Signup For Our Newsletter</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus</p>
+					<form class="form-inline justify-content-center" action="">
+						<input type="text" placeholder="Enter name" class="form-control">
+						<input type="email" placeholder="Enter email" class="form-control">
+						<input type="submit" value="subscribe" class="btn btn-primary">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Info Form section end-->	
+	<!--Footer section start-->	
+	<footer id="footer-section" class="py-3 text-center ">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p class="lead mb-0">Copyright 2018 &copy; Glozzom</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Footer section end-->	
 
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/sound.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div><br>
-    <p>Just call me awesome.</p>
-  </div>
-  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
-    <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A draft from my CV</p>
-      <div class="w3-container w3-responsive">
-        <table class="w3-table">
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
-          </tr>
-          <tr class="w3-white">
-            <td>2012-2016</td>
-            <td>The rest is history..</td>
-            <td>Lorem ipsum</td>
-          </tr>
-          <tr>
-            <td>2009-2012</td>
-            <td>Started my own company</td>
-            <td>My Garage</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2008-2009</td>
-            <td>Started working for Lorem</td>
-            <td>London, UK</td>
-          </tr>
-          <tr>
-            <td>2005-2008</td>
-            <td>Degree in Bachelor of Design</td>
-            <td>Harvard, USA</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-          <tr class="w3-hide-medium">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>
+		
 
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row" id="contact">
-  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Swing By</h1>
-    </div>
-    <div class="w3-padding-64">
-      <p>..for a cup of coffee, or whatever.</p>
-      <p>Chicago, US</p>
-      <p>+00 1515151515</p>
-      <p>test@test.com</p>
-    </div>
-  </div>
-  <div class="w3-half w3-teal w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-padding-large">
-      <h1>Contact</h1>
-      <p class="w3-opacity">GET IN TOUCH</p>
-      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Name">
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Email">
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Message">
-        </div>
-        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
-      </form>
-    </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-container w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
 
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	
 </body>
 </html>
