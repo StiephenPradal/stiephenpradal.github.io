@@ -1,0 +1,21 @@
+
+
+
+
+
+/*Blog header style*/
+#blog-header{
+	background-image: url("../images/image5.jpg");
+	min-height: 200px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	h2, p{
+		color: #000;
+	}
+	p{
+		line-height: 15px;
+	}
+	
+}
+
