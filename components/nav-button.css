@@ -52,6 +52,10 @@
   height: 100%;
 }
 @media(max-width: 479px) {
+  .button-container {
+    width: 100%;
+    height: 100%;
+  }
   .button-root-class-name2 {
     width: 100%;
     height: 100%;
@@ -70,8 +74,12 @@
     height: 100%;
   }
   .button-root-class-name7 {
+    top: 0px;
+    left: 1px;
     width: 100%;
     height: 100%;
+    position: static;
+    align-self: center;
   }
   .button-root-class-name8 {
     width: 100%;
@@ -229,7 +237,7 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nav-button-dropdown-arrow {
+.nav-button-dropdown-icon {
   transition: 0.3s;
 }
 .nav-button-icon {
@@ -253,13 +261,13 @@
   background-color: var(--dl-color-gray-white);
   list-style-position: inside;
 }
-.nav-button-dropdown {
+.nav-button-home-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.nav-button-dropdown-toggle1 {
+.nav-button-home-btn-cont {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -271,16 +279,16 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nav-button-component {
+.nav-button-home-btn1 {
   text-decoration: none;
 }
-.nav-button-dropdown1 {
+.nav-button-research-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.nav-button-dropdown-toggle2 {
+.nav-button-research-btn-cont {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -292,16 +300,16 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nav-button-component1 {
+.nav-button-research-btn1 {
   text-decoration: none;
 }
-.nav-button-dropdown2 {
+.nav-button-teaching-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.nav-button-dropdown-toggle3 {
+.nav-button-teaching-btn-cont {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -313,16 +321,16 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nav-button-component2 {
+.nav-button-teaching-btn1 {
   text-decoration: none;
 }
-.nav-button-dropdown3 {
+.nav-button-miscellaneous-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.nav-button-dropdown-toggle4 {
+.nav-button-miscellaneous-btn-cont {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -334,16 +342,16 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nav-button-component3 {
+.nav-button-miscellaneous-btn1 {
   text-decoration: none;
 }
-.nav-button-dropdown4 {
+.nav-button-c-v-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.nav-button-dropdown-toggle5 {
+.nav-button-c-v-btn-cont {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -355,7 +363,7 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nav-button-component4 {
+.nav-button-c-v-btn1 {
   text-decoration: none;
 }
 
@@ -561,75 +569,93 @@
     fill: #ffffff;
   }
   .nav-button-dropdown-list {
-    top: 50px;
-    left: -60px;
+    top: 47px;
+    left: -48px;
+    width: auto;
     height: auto;
-    margin: auto;
     display: none;
+    position: absolute;
+    min-width: auto;
     border-style: hidden;
     border-width: 0px;
+    background-color: transparent;
+  }
+  .nav-button-home-btn-cont {
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    position: relative;
+    align-items: center;
+    border-color: #ffffff;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    justify-content: center;
     background-color: #000000;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
   }
-  .nav-button-dropdown-toggle1 {
+  .nav-button-research-btn-cont {
     color: #ffffff;
+    width: 100%;
     padding: 0px;
+    align-items: center;
     border-color: #ffffff;
     border-style: groove;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000000;
     border-top-width: 0px;
     border-bottom-width: 0px;
-    justify-content: center;
-    align-items: center;
   }
-  .nav-button-dropdown-toggle2 {
+  .nav-button-teaching-btn-cont {
     color: #ffffff;
+    width: 100%;
     padding: 0px;
+    align-items: center;
     border-color: #ffffff;
     border-style: groove;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000000;
     border-top-width: 0px;
     border-bottom-width: 0px;
-    justify-content: center;
-    align-items: center;
   }
-  .nav-button-dropdown-toggle3 {
+  .nav-button-miscellaneous-btn-cont {
     color: #ffffff;
+    width: 100%;
     padding: 0px;
+    align-items: center;
     border-color: #ffffff;
     border-style: groove;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000000;
     border-top-width: 0px;
     border-bottom-width: 0px;
-    justify-content: center;
-    align-items: center;
   }
-  .nav-button-dropdown-toggle4 {
+  .nav-button-c-v-btn-cont {
     color: #ffffff;
-    width: 170px;
+    width: 100%;
     padding: 0px;
+    align-items: center;
     border-color: #ffffff;
     border-style: groove;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000000;
     border-top-width: 0px;
     border-bottom-width: 0px;
-    justify-content: center;
-    align-items: center;
-  }
-  .nav-button-dropdown-toggle5 {
-    color: #ffffff;
-    padding: 0px;
-    border-color: #ffffff;
-    border-style: groove;
-    border-width: 1px;
-    border-radius: var(--dl-radius-radius-radius8);
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    justify-content: center;
-    align-items: center;
   }
   .nav-button-root-class-name3 {
     height: 100%;
