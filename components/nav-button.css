@@ -579,6 +579,8 @@
     border-radius: var(--dl-radius-radius-radius8);
     border-top-width: 0px;
     border-bottom-width: 0px;
+    justify-content: center;
+    align-items: center;
   }
   .nav-button-dropdown-toggle2 {
     color: #ffffff;
@@ -589,6 +591,8 @@
     border-radius: var(--dl-radius-radius-radius8);
     border-top-width: 0px;
     border-bottom-width: 0px;
+    justify-content: center;
+    align-items: center;
   }
   .nav-button-dropdown-toggle3 {
     color: #ffffff;
@@ -599,6 +603,8 @@
     border-radius: var(--dl-radius-radius-radius8);
     border-top-width: 0px;
     border-bottom-width: 0px;
+    justify-content: center;
+    align-items: center;
   }
   .nav-button-dropdown-toggle4 {
     color: #ffffff;
@@ -610,6 +616,8 @@
     border-radius: var(--dl-radius-radius-radius8);
     border-top-width: 0px;
     border-bottom-width: 0px;
+    justify-content: center;
+    align-items: center;
   }
   .nav-button-dropdown-toggle5 {
     color: #ffffff;
@@ -620,6 +628,8 @@
     border-radius: var(--dl-radius-radius-radius8);
     border-top-width: 0px;
     border-bottom-width: 0px;
+    justify-content: center;
+    align-items: center;
   }
   .nav-button-root-class-name3 {
     height: 100%;
