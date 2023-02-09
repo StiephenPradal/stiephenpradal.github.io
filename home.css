@@ -919,6 +919,7 @@
 }
 .nav-button-home-btn1 {
   text-decoration: none;
+  width: 100%;
 }
 .nav-button-research-dropdown {
   cursor: pointer;
